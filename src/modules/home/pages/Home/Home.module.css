@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    width: 100%;
+}
+.completeList{
+    display: flex;
+    margin-top: 24px;
+}
+.completeItem{
+    flex: 1;
+}
+.completeItem:not(:last-child){
+    padding-right: 16px;
+}
+.additionals{
+    display: flex;
+    margin-top: 32px;
+}
+.additionalItem{
+    flex: 1;
+}
+.additionalItem:not(:last-child){
+    margin-right: 24px;
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.label{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 16px;
+}

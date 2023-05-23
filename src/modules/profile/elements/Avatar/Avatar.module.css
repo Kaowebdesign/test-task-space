@@ -1,0 +1,20 @@
+.avatar{
+    position: relative;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.badge{
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #67D37F;
+    border: 2px solid #28292B;
+    z-index: 1;
+}

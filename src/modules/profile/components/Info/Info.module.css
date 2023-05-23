@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 12px;
+}
+.username{
+    font-size: 14px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.role{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #939495;
+}

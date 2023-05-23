@@ -1,0 +1,44 @@
+.input{
+    position: relative;
+    display: flex;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.3);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.field{
+    position: relative;
+    background: #222325;
+    border-radius: 10px;
+    border: none;
+    padding: 12.5px 16px;
+    max-width: 380px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+.field:focus{
+    border: none;
+    outline: none;
+}
+.iconed{
+    padding: 12.5px 16px 12.5px 56px;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+

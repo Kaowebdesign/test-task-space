@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #212224;
+}
+
+.typography_size_h1{
+    font-size: 24px;
+    line-height: 100%;
+}
+
+
+.typography_size_h2{
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.typography_size_body1{
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.typography_size_body2{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.typography_size_body3{
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.bgc-primary{
+    background-color: #28292C;
+}
+
+.bgc-secondary{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bgc-black{
+    background-color: #212224;
+}
+
+.cl-white{
+    color: #fff;
+}
+
+.cl-secondary{
+    color: #939495;
+}

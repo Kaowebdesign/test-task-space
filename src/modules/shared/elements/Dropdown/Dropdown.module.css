@@ -1,0 +1,55 @@
+.dropdown{
+    position: relative;
+}
+.selected{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8C8B8E;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.label{
+    margin-right: 8px;
+}
+.list{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px;
+    z-index: 10;
+}
+.open{
+    display: block;
+}
+.reversed{
+    transform-origin: center;
+    transform: rotate(180deg);
+}
+.item{
+    margin-bottom: 8px;
+}
+.button{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8C8B8E;
+    cursor: pointer;
+}
+.button:hover{
+    color: #fff;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+.processCard{
+    max-width: 264px;
+    width: 100%;
+}
+.processCard > div{
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    margin-bottom: 16px;
+}
+.desc{
+    text-align: center;
+}
+.reach{
+    margin-top: 28px;
+}
+.planetContainer{
+    position: relative;
+    margin-top: 28px;
+}
+.planetProcess{
+
+}
+.planetContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.planet{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.planetLevel{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #fff;
+}
+.planetLabel{
+
+}

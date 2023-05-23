@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.iconContainer{
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+}
+.iconContainer img:first-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.progressLine{
+
+}
+.content{
+
+}
+.countContainer{
+
+}
+.count{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.total{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}

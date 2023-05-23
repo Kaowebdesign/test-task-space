@@ -1,0 +1,8 @@
+.baseAside{
+    display: flex;
+    flex-direction: column;
+    max-width: 237px;
+    width: 100%;
+    padding: 12px;
+    border-right: 1px solid #202225;
+}

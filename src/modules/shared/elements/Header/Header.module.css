@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    padding: 10px 24px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.notification{
+    margin-right: 36px;
+}
+.lang{
+    margin-right: 36px;
+}

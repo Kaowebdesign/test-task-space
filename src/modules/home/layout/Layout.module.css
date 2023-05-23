@@ -1,0 +1,11 @@
+.layout{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+}
+.layoutRight{
+    flex: 1;
+}
+.layoutContent{
+    padding: 27px 32px 32px;
+}
