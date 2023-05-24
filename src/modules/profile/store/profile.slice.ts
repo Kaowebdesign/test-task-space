@@ -7,32 +7,7 @@ interface State {
 }
 
 const initialState: State = {
-    user: {
-        username: 'Peter',
-        role:  'Admin',
-        level: 4,
-        progress: '63%',
-        completed: [
-            {
-                count: 3,
-                total: 15,
-                type: 'Courses',
-                label: 'Courses completed'
-            },
-            {
-                count: 6,
-                total: 10,
-                type: 'Folders',
-                label: 'Folders add'
-            },
-            {
-                count: 3,
-                total: 19,
-                type: 'Books',
-                label: 'Books read'
-            }
-        ]
-    }
+    user: null
 }
 
 export const profileSlice = createSlice({

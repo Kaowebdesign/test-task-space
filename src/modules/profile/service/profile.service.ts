@@ -3,12 +3,12 @@ import {createApi} from "@reduxjs/toolkit/dist/query/react";
 import {User} from "../models/profile.model";
 
 export const userService = createApi({
-    reducerPath: 'applications/service',
+    reducerPath: 'user/service',
     baseQuery: baseQueryWithReauth,
     endpoints: (build) => ({
         getUser: build.query<User, void>({
             query: () => ({
-                url: '/user',
+                url: '/user/info',
             })
         }),
     }),

@@ -3,7 +3,7 @@ import {createApi} from "@reduxjs/toolkit/dist/query/react";
 import {Additions} from "../models/home.models";
 
 export const homeService = createApi({
-    reducerPath: 'applications/service',
+    reducerPath: 'home/service',
     baseQuery: baseQueryWithReauth,
     endpoints: (build) => ({
         getAdditionals: build.query<Additions[], void>({

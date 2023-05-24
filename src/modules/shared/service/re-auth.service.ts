@@ -11,7 +11,7 @@ import {RootState} from "../../../store";
 // create a new mutex
 const mutex = new Mutex()
 const baseQuery = fetchBaseQuery({
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3001',
 })
 
 const baseQueryWithReauth: BaseQueryFn<

@@ -12,10 +12,10 @@ export const store = configureStore({
         profile: profileReducer,
         home: homeReducer
     },
-    // middleware: getDefaultMiddleware => getDefaultMiddleware().concat(
-    //     userService.middleware,
-    //     homeService.middleware,
-    // ),
+    middleware: getDefaultMiddleware => getDefaultMiddleware().concat(
+        userService.middleware,
+        homeService.middleware
+    ),
 })
 
 setupListeners(store.dispatch)
